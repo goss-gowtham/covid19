@@ -1,0 +1,89 @@
+/* Statistics */
+.statistics {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 100%;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  cursor: default;
+}
+.statistics li {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 1.5em;
+  color: #ffffff;
+  text-align: center;
+}
+.statistics li.style1 {
+  background-color: #efa8b0;
+}
+.statistics li.style2 {
+  background-color: #c79cc8;
+}
+.statistics li.style3 {
+  background-color: #a89cc8;
+}
+.statistics li.style4 {
+  background-color: #9bb2e1;
+}
+.statistics li.style5 {
+  background-color: #8cc9f0;
+}
+.statistics li strong,
+.statistics li b {
+  display: block;
+  font-size: 2em;
+  line-height: 1.1;
+  color: inherit !important;
+  font-weight: 300;
+  letter-spacing: -0.025em;
+}
+.statistics li:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.statistics li:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.statistics li .icon {
+  display: inline-block;
+}
+.statistics li .icon:before {
+  font-size: 2.75rem;
+  line-height: 1.3;
+}
+@media screen and (max-width: 980px) {
+  .statistics li strong,
+  .statistics li b {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 736px) {
+  .statistics {
+    display: block;
+    width: 20em;
+    max-width: 100%;
+    margin: 0 auto 2em auto;
+  }
+  .statistics li:first-child {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+  }
+  .statistics li:last-child {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+  .statistics li .icon:before {
+    font-size: 3.75rem;
+  }
+  .statistics li strong,
+  .statistics li b {
+    font-size: 2.5em;
+  }
+}

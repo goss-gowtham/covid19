@@ -1,10 +1,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Covid-19</title>
+        <link rel="stylesheet" href="./styles.css" type="text/css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-primary bg-light justify-content-center">
-            <a class="navbar-brand" href="#">Covid-19</a>
+            <a class="navbar-brand" href="#">Covid-19 India</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,6 +25,23 @@
                 </ul>
             </div>
         </nav>
-        
+        <div class="container my-5">
+            <ul class="statistics">
+                <li class="style1">
+                    <span class="icon solid fa-code-branch"></span>
+                    <strong id="deaths">5,120</strong> Deaths
+                </li>
+                <li class="style2">
+                    <span class="icon fa-folder-open"></span>
+                    <strong id="recovered">8,192</strong> Recovered
+                </li>
+                <li class="style5">
+                    <span class="icon solid fa-signal"></span>
+                    <strong id="confirmed">2,048</strong> Confirmed
+                </li>
+            </ul>
+            <p class="d-flex justify-content-end m-0 p-0" id="date"></p>
+        </div>
     </body>
+    <script src="./app.js"></script>
 </html>
