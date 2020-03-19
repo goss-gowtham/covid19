@@ -1,3 +1,8 @@
+body {
+  background: no-repeat url("./corona.jpg") fixed center;
+  background-size: cover;
+}
+
 /* Statistics */
 .statistics {
   display: -moz-flex;
