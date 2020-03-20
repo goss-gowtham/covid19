@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
 body {
+  font-family: "Pt Sans";
+}
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+	background-color: #CCCCCC;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, 1) 0%,
+											  rgba(0, 0, 0, 1) 25%,
+											  transparent 100%,
+											  rgba(0, 0, 0, 1) 75%,
+											  transparent)
 }
 
 /* Statistics */
@@ -13,7 +38,7 @@ body {
   background-color: #efa8b0;
   padding: 1.5em 4.5em;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.1em;
   text-align: center;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -23,7 +48,7 @@ body {
   background-color: #c79cc8;
   padding: 1.5em 4.5em;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.1em;
   text-align: center;
 }
 .statistics .style3 {
@@ -32,7 +57,7 @@ body {
   padding: 1.5em 4.5em;
   color: #ffffff;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.1em;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -68,4 +93,20 @@ body {
   .statistics li b {
     font-size: 4em;
   }
+}
+
+.shadow-class {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
 }

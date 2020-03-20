@@ -17,4 +17,4 @@ document.getElementById("recovered").innerHTML = JSON.stringify(recovered.slice(
 var date = new Date(recovered.slice(-1).pop().Date);
 console.log(date);
 
-document.getElementById("date").innerHTML = "*as of " + date.toLocaleString();
+document.getElementById("date").innerHTML = "*All data as of " + date.toLocaleString();
