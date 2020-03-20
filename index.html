@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <title>Covid-19</title>
+        <link rel="shortcut icon" type="image/png" href="./images/favicon.jpg"/>
         <link rel="stylesheet" href="./styles.css" type="text/css">
     </head>
     <body>
@@ -23,11 +24,14 @@
                 </ul>
             </div>
         </nav>
-        <div class="container my-5">
+        <div class="container-fluid my-5">
                 <h1 class="text-dark text-center py-2">India Covid outbreak</h1>
                 <ul class="statistics col-12 d-lg-flex shadow">
                     <div class="style1">
                         <strong id="deaths">Fetching</strong> Deaths
+                    </div>
+                    <div class="style4">
+                        <strong id="ICU">2</strong> in ICU
                     </div>
                     <div class="style2">
                         <strong id="recovered">Fetching</strong> Recovered
@@ -37,11 +41,11 @@
                     </div>
                 </ul>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <h2 class="text-center pb-3"> Fact check </h2>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="card">
+                    <div class="card fake">
                         <div class="card-horizontal">
                             <div class="card-header border-0 bg-white">
                                 <img src="./images/surgicalmask.jpg" alt="" height=70 width=70 class="rounded-lg m-2 shadow-sm"/>
@@ -57,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card">
+                    <div class="card true">
                         <div class="card-horizontal">
                             <div class="card-header border-0 bg-white">
                                 <img src="./images/n95.webp" alt="" height=70 width=70 class="rounded-lg m-2 shadow-sm"/>
@@ -75,7 +79,7 @@
             </div>
         </div>
         <hr class="mt-5"/>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <h2 class="text-dark text-center py-2">Worldwide outbreak</h2>

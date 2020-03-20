@@ -61,6 +61,14 @@ body::-webkit-scrollbar-thumb
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+.statistics .style4 {
+  flex: 1;
+  background-color: #fa6b725d;
+  padding: 1.5em 4.5em;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.1em;
+}
 .statistics strong,
 .statistics b {
   display: block;
@@ -116,4 +124,12 @@ a:hover {
   box-shadow: 0 8px 6px -6px #999;
 
   /* the rest of your styling */
+}
+
+.fake {
+  border-left: solid 0.2em rgb(245, 63, 63);
+}
+
+.true {
+  border-left: solid 0.2em rgb(95, 236, 95);
 }
