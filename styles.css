@@ -83,6 +83,8 @@ body::-webkit-scrollbar-thumb
   .statistics li b {
     font-size: 3em;
   }
+
+  body{font-size: 18px;}
 }
 @media screen and (max-width: 736px) {
   .statistics {
@@ -101,6 +103,7 @@ body::-webkit-scrollbar-thumb
   .statistics li b {
     font-size: 4em;
   }
+  body{font-size: 14px;}
 }
 
 .shadow-class {
@@ -132,4 +135,7 @@ a:hover {
 
 .true {
   border-left: solid 0.2em rgb(95, 236, 95);
+}
+img {
+  border-radius: 10px;
 }
