@@ -3,7 +3,7 @@
 body {
   font-family: "Pt Sans";
   background: no-repeat url(./images/favicon.jpg) fixed;
-  background-position: bottom 35px right 17px;
+  background-position: bottom 35px right -4%;
   min-width: 100%;
 }
 body::-webkit-scrollbar-track
