@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
 body {
   font-family: "Pt Sans";
@@ -89,6 +90,9 @@ body::-webkit-scrollbar-thumb
   }
 }
 @media screen and (max-width: 736px) {
+  #button i{
+    display: block;
+  }
   .statistics {
     display: block;
     max-width: 100%;
@@ -141,7 +145,7 @@ a:hover {
 }
 
 .navbar-brand {
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 .fake {
@@ -164,4 +168,27 @@ img {
 }
  h1, h2, h3, h4 {
    font-size: 2em;
+   font-family: "Caveat Brush";
+ }
+
+ .card {
+   height: 150px;
+   overflow-y: auto;
+ }
+ #stayhome {
+   font-size: 100px;
+   text-indent: -2em;
+   font-family: "Caveat Brush";
+ }
+ #button i{
+   display: block;
+   position: absolute;
+   padding: 15px;
+   bottom: 30px;
+   right: 20px;
+   box-shadow: 2px 2px 15px #000;
+   border-radius: 10px;
+   color: rgba(0, 0, 0, 0.37);
+   font-weight: 300;
+   background-color: #74c0f0bb;
  }

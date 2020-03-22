@@ -18,3 +18,22 @@ var date = new Date(recovered.slice(-1).pop().Date);
 console.log(date);
 
 document.getElementById("date").innerHTML = "*All data as of " + date.toLocaleString();
+
+const shareData = {
+    title: 'Covid 19',
+    text: 'Coronavirus facts vs Myths, Check here!',
+    url: 'https://staysafecovid.herokuapp.com',
+  }
+  
+  const btn = document.querySelector('#button');
+  const resultPara = document.querySelector('.result');
+  
+  // Must be triggered some kind of "user activation"
+  btn.addEventListener('click', async () => {
+    try {
+      await navigator.share(shareData)
+      resultPara.textContent = 'MDN shared successfully'
+    } catch(err) {
+      resultPara.textContent = 'Error: ' + e
+    }
+  });
