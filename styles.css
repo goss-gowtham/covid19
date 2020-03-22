@@ -197,8 +197,9 @@ img {
  }
 #p-indent p {
   text-indent: 2em;
-  padding: 1em 2em;
-  font-size: 1.1em;
+  padding: 1em 1em;
+  line-height: 1.7em;
+  font-size: 24px;
 }
 #p-indent img {
   border-radius: 10px;
