@@ -29,11 +29,13 @@ const shareData = {
   const resultPara = document.querySelector('.result');
   
   // Must be triggered some kind of "user activation"
+  if (navigator.share){
+      btn.style.display = "block";
+  }
   btn.addEventListener('click', async () => {
     try {
-      await navigator.share(shareData)
-      resultPara.textContent = 'MDN shared successfully'
+      await navigator.share(shareData);
     } catch(err) {
-      resultPara.textContent = 'Error: ' + e
+        window.alert("We got an issue, Please spread the word to your friends and family by sharing the link")
     }
   });

@@ -83,15 +83,15 @@ body::-webkit-scrollbar-thumb
   font-weight: 300;
   letter-spacing: -0.025em;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (min-width: 737px) {
   .statistics li strong,
   .statistics li b {
     font-size: 3em;
   }
 }
-@media screen and (max-width: 736px) {
-  #button i{
-    display: block;
+@media only screen and (max-width: 736px) {
+  .navbar {
+    position: sticky;
   }
   .statistics {
     display: block;
@@ -181,7 +181,7 @@ img {
    font-family: "Caveat Brush";
  }
  #button i{
-   display: block;
+   display: none;
    position: absolute;
    padding: 15px;
    bottom: 30px;
@@ -192,3 +192,17 @@ img {
    font-weight: 300;
    background-color: #74c0f0bb;
  }
+ p {
+   text-align: justify;
+ }
+#p-indent p {
+  text-indent: 2em;
+  padding: 1em 2em;
+  font-size: 1.1em;
+}
+#p-indent img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #000;
+  padding: 0.5em;
+  margin: 1.5em;
+}
