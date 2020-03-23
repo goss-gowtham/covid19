@@ -3,10 +3,13 @@
 
 body {
   font-family: "Pt Sans";
+  min-width: 100%;
+}
+#body-css {
   background: no-repeat url(./images/favicon.jpg) fixed;
   background-position: bottom 35px right -4%;
-  min-width: 100%;
-  background-color: #74c0f0bb;
+  transition: transform 1s;
+  transform: rotate(360deg);
 }
 body::-webkit-scrollbar-track
 {
