@@ -209,7 +209,7 @@ img {
 }
 
 .do-true {
-  background-color: #ffffff;
+  background-color: #e7f4ea;
   border-radius: 15px;
   font-weight: 500;
   color: rgb(36, 189, 36);
@@ -219,7 +219,7 @@ img {
 }
 
 .dont {
-  background-color: #000000;
+  background-color: #fbe8e7;
   border-radius: 15px;
   font-weight: 500;
   color: rgba(255, 0, 0, 0.671);
