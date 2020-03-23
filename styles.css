@@ -207,3 +207,52 @@ img {
   padding: 0.5em;
   margin: 1.5em;
 }
+
+.do-true {
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-weight: 500;
+  color: rgb(36, 189, 36);
+  box-shadow: 0px 16px 20px -25px rgba(0,0,0,0.69);
+  font-size: 1.2em;
+  text-align: start;
+}
+
+.dont {
+  background-color: #000000;
+  border-radius: 15px;
+  font-weight: 500;
+  color: rgba(255, 0, 0, 0.671);
+  box-shadow: 0px 16px 20px -25px rgba(0,0,0,0.69);
+  font-size: 1.2em;
+  text-align: start;
+}
+
+.card .dont {
+  flex: 0 0 auto;
+}
+
+.hs {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.hs .card {
+  max-width: 25%;
+  height: 180px;
+  max-width: 250px;
+  padding: .25rem;
+  margin-bottom: 1rem;
+  border: 0;
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 24px;
+}
+.hs p {
+  text-align: start !important;
+}
