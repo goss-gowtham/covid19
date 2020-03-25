@@ -260,7 +260,7 @@ img {
 
 .hs2 {
   align-items: center;
-  width: 33%;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
