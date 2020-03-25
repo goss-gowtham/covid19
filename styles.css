@@ -260,6 +260,7 @@ img {
 
 .hs2 {
   align-items: center;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -269,7 +270,7 @@ img {
 .hs2 .card2 {
   align-items: center;
   height: fit-content;
-  width: fit-content;
+  width: 33%;
   padding: .25rem;
   margin-bottom: 1rem;
   border: 0;
