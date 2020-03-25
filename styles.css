@@ -164,6 +164,7 @@ img {
 
 .container-fluid {
   font-size: 1.2em;
+  width: 100%;
 }
 
 .card-title {
@@ -258,27 +259,6 @@ img {
 }
 
 
-.hs2 {
-  align-items: center;
-  
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-.hs2 .card2 {
-  align-items: center;
-  height: fit-content;
-  width: fit-content;
-  padding: .25rem;
-  margin-bottom: 1rem;
-  border: 0;
-  flex-basis: 25%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  font-size: 24px;
-}
 .hs p {
   text-align: start !important;
 }
