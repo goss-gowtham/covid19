@@ -4,6 +4,7 @@
 body {
   font-family: "Pt Sans";
   min-width: 100%;
+  font-size: 20px;
 }
 #body-css {
   background: no-repeat url(./images/favicon.jpg) fixed;
@@ -34,10 +35,14 @@ body::-webkit-scrollbar-thumb
 											  transparent)
 }
 
+nav {
+  width: 100%;
+}
+
 /* Statistics */
 .statistics {
   width: 100%;
-  margin: 0 0 3em 0;
+  margin: 0 0 1em 0;
   padding: 0;
   list-style: none;
   cursor: default;
@@ -164,7 +169,6 @@ img {
 
 .container-fluid {
   font-size: 1.2em;
-  width: 100%;
 }
 
 .card-title {
@@ -261,4 +265,18 @@ img {
 
 .hs p {
   text-align: start !important;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }

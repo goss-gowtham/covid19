@@ -32,12 +32,9 @@
         <div class="d-flex justify-content-center p-5" ><a href="./blogs.html" class="btn btn-outline-primary btn-lg" title="Check out our blog">Know about the use of Soap</a></div>
         <div class="container-fluid my-5">
                 <h1 class="text-dark text-center py-2">Coronavirus outbreak - India</h1>
-                <div class="statistics d-flex row">
+                <div class="statistics row">
                     <div class="style1">
                         <strong id="deaths">Fetching</strong> Deaths
-                    </div>
-                    <div class="style4">
-                        <strong id="critical">0</strong> Critical
                     </div>
                     <div class="style2">
                         <strong id="recovered">Fetching</strong> Recovered
@@ -46,9 +43,10 @@
                         <strong id="confirmed">Fetching</strong> Confirmed
                     </div>
                 </div>
+                <p class="d-flex justify-content-end p-0 m-0 small" id="date"></p>
         </div>
         <div class="container-fluid">
-            <h2 class="text-center">Youngsters, please create awareness among your Family and Friends!</h2>
+            <h2 class="text-center">Please create awareness among your Family and Friends!</h2>
             <div class="row py-3 mx-1 hs">
                 <div class="card do-true mx-2">
                     <div class="card-body p-3">
@@ -68,7 +66,7 @@
                 </div>
                 <div class="card do-true mx-2">
                     <div class="card-body p-3">
-                        <p class="card-text">Wash hands even if it's visibly clean</p>
+                        <p class="card-text">Practice Social Distancing and avoid large gatherings</p>
                     </div>
                 </div>
                 <div class="card dont mx-2">
@@ -81,6 +79,16 @@
                         <p class="card-text">Stay home if you’re sick, Cover coughs and sneezes</p>
                     </div>
                 </div>
+                <div class="card do-true mx-2">
+                    <div class="card-body p-3">
+                        <p class="card-text">Throw used tissues into closed bins immediately after use</p>
+                    </div>
+                </div>
+                <div class="card do-true mx-2">
+                    <div class="card-body p-3">
+                        <p class="card-text">Wash hands even if it's visibly clean</p>
+                    </div>
+                </div>
             </div>
         </div>
         <hr class="my-5" />
@@ -90,7 +98,7 @@
                 <div class="col-sm-6">
                     <div class="card fake">
                         <div class="card-horizontal">
-                            <img src="./images/surgicalmask.jpg" alt="" height=100 width=100 style="float: left; padding-right: 1em; padding-bottom: 1em;" class="rounded-lg float-left m-2 shadow-sm"/>
+                            <img src="./images/surgicalmask.jpg" alt="" height=100 width=100 class="rounded-lg float-left m-2 shadow-sm"/>
                             <div class="card-body px-2">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h5 class="card-title">Wrong mask</h5>
@@ -109,7 +117,7 @@
                             </div>
                             <div class="card-body px-2">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="card-title">N95 mask</h5>
+                                    <h5 class="card-title">N95 - Reliable mask</h5>
                                     <p class="badge badge-success justify-content-end"><a href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/respirator-use-faq.html">Fact</a></p>
                                 </div>
                                 <p class="card-text">Wearing N95 type mask will prevent from spreading. It should be used properly with instructions as prescribed</p>
@@ -143,7 +151,7 @@
                             </div>
                             <div class="card-body px-2">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="card-title">Covid prevails in Desert areas too</h5>
+                                    <h5 class="card-title">Corona lives in Desert areas too</h5>
                                     <p class="badge badge-success justify-content-end"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">Fact</a></p>
                                 </div>
                                 <p class="card-text">Covid 19 virus can even be transmitted in areas with hot and humid climate. As well as taking a hot bath cannot kill virus</p>
@@ -229,7 +237,7 @@
                             </div>
                             <div class="card-body px-2">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="card-title">Drinking alcohol prevents corona</h5>
+                                    <h5 class="card-title">Drinking alcohol kills corona</h5>
                                     <p class="badge badge-danger justify-content-end">Fake</p>
                                 </div>
                                 <p class="card-text">Spraying alcohol or chlorine all over your body will kill virus</p>
@@ -360,62 +368,58 @@
         <hr class="mt-5"/>
         <div class="container-fluid" id="visualisation">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <h2 class="text-dark text-center py-2">Worldwide outbreak</h2>
-                    <iframe src="https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd" height="500px" width="100%"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="shadow-class border-0 embed-responsive embed-responsive-16by9" src="https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"></iframe>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <h2 class="text-dark text-center py-2">Statewise cases</h2>
-                    <iframe class= "shadow-class" src="https://public.flourish.studio/visualisation/1535461/embed#fl-layout-primary-container" height="500px" width="100%"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class= "shadow-class border-0 embed-responsive embed-responsive-16by9" src="https://public.flourish.studio/visualisation/1535461/embed#fl-layout-primary-container"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
         <hr class="my-5"/>
         <div class="container-fluid">
             <h2 class="text-center">Social feeds</h2>
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 h-25">
-                    <div class="p-3">
-                        <p class="card-text"><a class="twitter-timeline" data-width="500" data-height="350" data-theme="dark" href="https://twitter.com/Vijayabaskarofl?ref_src=twsrc%5Etfw">Tweets by Vijayabaskarofl</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+            <div class="row mx-auto">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="py-3">
+                        <p class="card-text"><a class="twitter-timeline" noheader nofooter noborders data-conversation="none" data-width="50vw" data-height="60vh" data-theme="dark" href="https://twitter.com/CDCgov?ref_src=twsrc%5Etfw">Tweets by CDCgov</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="p-3">
-                        <p class="card-text"><a class="twitter-timeline" data-width="500" data-height="350" data-theme="dark" href="https://twitter.com/CDCgov?ref_src=twsrc%5Etfw">Tweets by CDCgov</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+                    <div class="py-3">  
+                        <p class="card-text"><a class="twitter-timeline" noheader nofooter noborders data-conversation="none" data-width="50vw" data-height="60vh" data-theme="dark" href="https://twitter.com/MoHFW_INDIA?ref_src=twsrc%5Etfw">Tweets by MoHFW_INDIA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="p-3">
-                        <p class="card-text"><a class="twitter-timeline" data-width="500" data-height="350" data-theme="dark" href="https://twitter.com/MoHFW_INDIA?ref_src=twsrc%5Etfw">Tweets by MoHFW_INDIA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
-                    </div>
-                </div>
-                
             </div>
         </div>
-        <p class="d-flex justify-content-end m-0 p-0 small" id="date"></p>
         <h2 class="text-center py-3">Check out these videos </h2>
-        <div class="container-fluid" id="precautions">
-            <nav>
-                <div class="nav nav-tabs d-flex justify-content-center bg-red" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-hindi-tab" data-toggle="tab" href="#nav-hindi" role="tab" aria-controls="nav-hindi" aria-selected="true">Hindi</a>
-                    <a class="nav-item nav-link" id="nav-tamil-tab" data-toggle="tab" href="#nav-tamil" role="tab" aria-controls="nav-tamil" aria-selected="false">Tamil</a>
-                    <a class="nav-item nav-link" id="nav-malayalam-tab" data-toggle="tab" href="#nav-malayalam" role="tab" aria-controls="nav-malayalam" aria-selected="false">Malayalam</a>
-                    <a class="nav-item nav-link" id="nav-english-tab" data-toggle="tab" href="#nav-english" role="tab" aria-controls="nav-english" aria-selected="false">English</a>                </div>
-            </nav>
-            <div class="tab-content d-flex justify-content-center pt-3 mx-auto" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-hindi" role="tabpanel" aria-labelledby="nav-hindi-tab">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v-852f1PXBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>3
-                <div class="tab-pane fade" id="nav-tamil" role="tabpanel" aria-labelledby="nav-tamil-tab">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TEy7q98Qe7Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-md-12">
+            <div class="nav nav-tabs d-flex justify-content-center align-items-center" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link" id="nav-hindi-tab" data-toggle="tab" href="#nav-hindi" role="tab" aria-controls="nav-hindi" aria-selected="true">Hindi</a>
+                <a class="nav-item nav-link active" id="nav-tamil-tab" data-toggle="tab" href="#nav-tamil" role="tab" aria-controls="nav-tamil" aria-selected="false">Tamil</a>
+                <a class="nav-item nav-link" id="nav-malayalam-tab" data-toggle="tab" href="#nav-malayalam" role="tab" aria-controls="nav-malayalam" aria-selected="false">Malayalam</a>
+                <a class="nav-item nav-link" id="nav-english-tab" data-toggle="tab" href="#nav-english" role="tab" aria-controls="nav-english" aria-selected="false">English</a>                
+            </div>
+            <div class="tab-content d-flex justify-content-center pt-3 mx-auto" id="nav-tabContent" style="height: 70vh">
+                <div class="tab-pane fade embed-responsive embed-responsive-16by9" id="nav-hindi" role="tabpanel" aria-labelledby="nav-hindi-tab">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v-852f1PXBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </div>
-                <div class="tab-pane fade" id="nav-malayalam" role="tabpanel" aria-labelledby="nav-malayalam-tab">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0ziiL-2J7lc" frame3border="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="tab-pane fade embed-responsive embed-responsive-16by9 show active" id="nav-tamil" role="tabpanel" aria-labelledby="nav-tamil-tab">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TEy7q98Qe7Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </div>
-                <div class="tab-pane fade" id="nav-english" role="tabpanel" aria-labelledby="nav-english-tab">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mOV1aBVYKGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="tab-pane fade embed-responsive embed-responsive-16by9" id="nav-malayalam" role="tabpanel" aria-labelledby="nav-malayalam-tab">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0ziiL-2J7lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </div>
-            </div>3
+                <div class="tab-pane fade embed-responsive embed-responsive-16by9" id="nav-english" role="tabpanel" aria-labelledby="nav-english-tab">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mOV1aBVYKGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            </div>
         </div>
         <div id="button" style="position: relative"><i class="fa fa-share-alt fa-3x"></i></div>
         <div class="card-footer text-center mt-3"><a href="who.int">Source</a> | 
